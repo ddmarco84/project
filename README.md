@@ -145,6 +145,8 @@ After threshold optimisation, XGBoost also had the lowest expected loss. The los
 
 ![Expected Loss by Threshold](outputs/outputs_loss/loss_by_threshold.png)
 
+![Model with Minimum Expected Loss](outputs/outputs_loss/robustness_best_model_heatmap.png)
+
 ## Model Interpretation With SHAP
 
 SHAP was used to explain the best main predictive model, XGBoost. The most important features were related to debt burden, credit history, and missingness in debt-to-income ratio.
