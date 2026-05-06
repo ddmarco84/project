@@ -1,0 +1,4 @@
+model,winning_grid_cells
+XGBoost,25
+Random Forest,6
+Gradient Boosting,4

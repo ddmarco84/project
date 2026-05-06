@@ -1,0 +1,14 @@
+,Variable,Description
+0,BAD,Default indicator: 1 = defaulted or severely delinquent; 0 = repaid
+1,LOAN,Amount of loan approved
+2,MORTDUE,Amount due on existing mortgage
+3,VALUE,Current property value
+4,REASON,Reason for loan request
+5,JOB,Applicant job type
+6,YOJ,Years at present job
+7,DEROG,Number of major derogatory reports
+8,DELINQ,Number of delinquent credit lines
+9,CLAGE,Age of oldest credit line in months
+10,NINQ,Number of recent credit inquiries
+11,CLNO,Number of existing credit lines
+12,DEBTINC,Debt-to-income ratio

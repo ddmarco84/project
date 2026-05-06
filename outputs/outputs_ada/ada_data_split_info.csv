@@ -1,0 +1,2 @@
+n_train,n_test,test_size,random_state,train_default_rate,test_default_rate
+4172,1788,0.3,42,0.19942473633748803,0.19966442953020133

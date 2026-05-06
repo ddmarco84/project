@@ -1,0 +1,2 @@
+objective,eval_metric,random_state,scale_pos_weight,tree_method,n_jobs,subsample,reg_lambda,reg_alpha,n_estimators,min_child_weight,max_depth,learning_rate,gamma,colsample_bytree
+binary:logistic,auc,42,4.014423076923077,hist,-1,0.7,1.5,0.1,400,1,6,0.06,0.05,0.6

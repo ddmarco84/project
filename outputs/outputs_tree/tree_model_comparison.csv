@@ -1,0 +1,7 @@
+model,split,threshold,accuracy,precision_BAD_1,recall_BAD_1,f1_BAD_1,roc_auc,false_positives,false_negatives,true_positives,true_negatives
+baseline_tree,train,0.5,1.0,1.0,1.0,1.0,1.0,0,0,832,3340
+baseline_tree,test,0.5,0.8786,0.7349,0.6134,0.6687,0.7791,79,138,219,1352
+tuned_tree_default_threshold,train,0.5,0.8428,0.5732,0.8281,0.6775,0.9069,513,143,689,2827
+tuned_tree_default_threshold,test,0.5,0.8345,0.5595,0.8039,0.6598,0.8835,226,70,287,1205
+tuned_tree_selected_threshold,train,0.585,0.8871,0.7193,0.7115,0.7154,0.9069,231,240,592,3109
+tuned_tree_selected_threshold,test,0.585,0.8697,0.6845,0.6443,0.6638,0.8835,106,127,230,1325

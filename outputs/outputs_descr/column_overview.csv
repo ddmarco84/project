@@ -1,0 +1,14 @@
+,column,dtype,non_null_count,missing_count,missing_%
+0,BAD,int64,5960,0,0.0
+1,LOAN,int64,5960,0,0.0
+2,MORTDUE,float64,5442,518,8.69
+3,VALUE,float64,5848,112,1.88
+4,REASON,object,5708,252,4.23
+5,JOB,object,5681,279,4.68
+6,YOJ,float64,5445,515,8.64
+7,DEROG,float64,5252,708,11.88
+8,DELINQ,float64,5380,580,9.73
+9,CLAGE,float64,5652,308,5.17
+10,NINQ,float64,5450,510,8.56
+11,CLNO,float64,5738,222,3.72
+12,DEBTINC,float64,4693,1267,21.26

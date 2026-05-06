@@ -1,0 +1,5 @@
+model,accuracy,precision_BAD_1,recall_BAD_1,f1_BAD_1,roc_auc,average_precision,false_negatives,false_positives
+Logistic Regression,0.8798,0.7219,0.6471,0.6824,0.8903,,126.0,89.0
+Decision Tree,0.8702,0.6866,0.6443,0.6647,0.8782,,127.0,105.0
+Random Forest,0.9038,0.7428,0.7927,0.7669,0.953,0.8368,74.0,98.0
+Gradient Boosting,0.9178,0.772,0.8347,0.8022,0.9633,0.8975,59.0,88.0

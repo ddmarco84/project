@@ -1,0 +1,51 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local configuration
+.env
+.env.*
+*.env
+.python-version
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Raw/local data
+# Keep raw datasets out of the public repo unless the source/license is clear.
+data/*.csv
+data/*.xlsx
+data/*.xls
+!data/README.md
+
+# Course/private source material
+Loan Default Prediction Problem Statement.pdf
+
+# Generated notebook exports and large interactive outputs
+notebooks/*.html
+outputs/**/*.html
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# Model binaries, if generated later
+*.pkl
+*.joblib
+*.pickle

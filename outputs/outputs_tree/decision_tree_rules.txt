@@ -1,0 +1,31 @@
+|--- DEBTINC_missing <= 0.50
+|   |--- DEBTINC <= 43.68
+|   |   |--- DELINQ <= 1.50
+|   |   |   |--- CLAGE <= 178.67
+|   |   |   |   |--- DEROG <= 0.50
+|   |   |   |   |   |--- LOAN <= 19650.00
+|   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |--- LOAN >  19650.00
+|   |   |   |   |   |   |--- weights: [304.78, 35.10] class: 0
+|   |   |   |   |--- DEROG >  0.50
+|   |   |   |   |   |--- DEBTINC <= 35.00
+|   |   |   |   |   |   |--- weights: [47.47, 17.55] class: 0
+|   |   |   |   |   |--- DEBTINC >  35.00
+|   |   |   |   |   |   |--- weights: [18.74, 55.16] class: 1
+|   |   |   |--- CLAGE >  178.67
+|   |   |   |   |--- weights: [848.76, 92.77] class: 0
+|   |   |--- DELINQ >  1.50
+|   |   |   |--- weights: [90.56, 125.36] class: 1
+|   |--- DEBTINC >  43.68
+|   |   |--- CLAGE <= 231.67
+|   |   |   |--- weights: [3.75, 157.95] class: 1
+|   |   |--- CLAGE >  231.67
+|   |   |   |--- weights: [11.87, 10.03] class: 0
+|--- DEBTINC_missing >  0.50
+|   |--- DELINQ <= 0.50
+|   |   |--- CLAGE <= 178.23
+|   |   |   |--- weights: [83.69, 586.69] class: 1
+|   |   |--- CLAGE >  178.23
+|   |   |   |--- weights: [85.56, 117.84] class: 1
+|   |--- DELINQ >  0.50
+|   |   |--- weights: [36.85, 674.44] class: 1

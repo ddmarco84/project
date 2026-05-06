@@ -1,0 +1,11 @@
+{
+  "rf__n_estimators": 200,
+  "rf__min_samples_split": 5,
+  "rf__min_samples_leaf": 1,
+  "rf__max_samples": null,
+  "rf__max_features": "sqrt",
+  "rf__max_depth": null,
+  "rf__criterion": "entropy",
+  "rf__class_weight": "balanced",
+  "rf__bootstrap": true
+}

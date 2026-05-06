@@ -1,0 +1,9 @@
+{
+  "tree__ccp_alpha": 0.005,
+  "tree__class_weight": "balanced",
+  "tree__criterion": "entropy",
+  "tree__max_depth": null,
+  "tree__max_features": null,
+  "tree__min_samples_leaf": 5,
+  "tree__min_samples_split": 2
+}

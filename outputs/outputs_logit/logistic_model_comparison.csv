@@ -1,0 +1,9 @@
+model,split,threshold,accuracy,precision_BAD_1,recall_BAD_1,f1_BAD_1,roc_auc,false_positives,false_negatives,true_positives,true_negatives
+baseline_leakage_free_balanced,train,0.5,0.7718,0.4511,0.6659,0.5379,0.817,674,278,554,2666
+baseline_leakage_free_balanced,test,0.5,0.7662,0.4398,0.6246,0.5162,0.7838,284,134,223,1147
+improved_cv_default_threshold,train,0.5,0.8924,0.7924,0.6238,0.698,0.9045,136,313,519,3204
+improved_cv_default_threshold,test,0.5,0.8814,0.7599,0.5938,0.6667,0.8903,67,145,212,1364
+improved_cv_selected_threshold,train,0.425,0.8929,0.7484,0.6971,0.7218,0.9045,195,252,580,3145
+improved_cv_selected_threshold,test,0.425,0.8798,0.7219,0.6471,0.6824,0.8903,89,126,231,1342
+original_notebook_like_pre_split_preprocessing,train,0.5,0.8533,0.5993,0.7981,0.6845,0.9064,444,168,664,2896
+original_notebook_like_pre_split_preprocessing,test,0.5,0.849,0.5912,0.7899,0.6763,0.8923,195,75,282,1236

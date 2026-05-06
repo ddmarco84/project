@@ -1,0 +1,2 @@
+n_train,n_test,test_size,random_state,test_default_rate,total_test_loan_value
+4172,1788,0.3,42,0.19966442953020133,33694700.0

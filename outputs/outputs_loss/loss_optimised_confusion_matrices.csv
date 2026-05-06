@@ -1,0 +1,7 @@
+model,threshold,true_negatives,false_positives,false_negatives,true_positives
+Logistic Regression,0.04,666,765,17,340
+Decision Tree,0.11,967,464,33,324
+Random Forest,0.08,1013,418,4,353
+Gradient Boosting,0.01,1220,211,21,336
+AdaBoost,0.46,1022,409,11,346
+XGBoost,0.06,1124,307,11,346

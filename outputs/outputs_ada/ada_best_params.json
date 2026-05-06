@@ -1,0 +1,6 @@
+{
+  "ada__n_estimators": 600,
+  "ada__learning_rate": 1.0,
+  "ada__estimator__min_samples_leaf": 3,
+  "ada__estimator__max_depth": 3
+}
